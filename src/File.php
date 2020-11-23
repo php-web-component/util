@@ -1,6 +1,7 @@
 <?php namespace PWC\Util;
 
-class File {
+class File
+{
     public static function recursiveRead($src, $callable = null)
     {
         $dir = opendir($src);
