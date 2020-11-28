@@ -11,25 +11,15 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {
-        "php-web-component/core": "dev-develop"
-    },
     "autoload": {
         "psr-4": {
             "PWC\\Util\\": "src/"
         }
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://localhost/satis"
-        },
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ],
-    "config": {
-        "secure-http": false
+    "require": {
+        "php-web-component/core": "dev-develop"
+    },
+    "require-dev": {
+        "kint-php/kint": "^3.3"
     }
 }
